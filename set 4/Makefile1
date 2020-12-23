@@ -1,0 +1,8 @@
+all.out: account.h account.cc account_test.cc
+	g++ account.h account.cc account_test.cc -lgtest_main -lgtest -lpthread
+-lgthread -lpthread -o all.out
+
+test:
+./a.out	
+	
+	
